@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2F5F9;
+}
+.card {
+    max-width: 400px;
+    width: 80%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+.postImage {
+    width: 100%;
+}
+.img {
+    background-image: url(hero-image-business-card.png);
+    background-size: contain;
+    padding: 200px 0px 0px 0px;
+}
+.img svg {
+    position: relative;
+    top: 5px;
+}
+.postInfo {
+    padding: 0px 30px;
+}
+.card h2 {
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #111729;
+    font-weight: 500;
+}
+.postInfo {
+    font-family: 'Lato', sans-serif;
+    color: #677489;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.authorInfo {
+    display: flex;
+    padding: 30px;
+}
+.authorInfo img {
+    width: 40px;
+    object-fit: contain;
+    border-radius: 80px;
+    margin-right: 15px;
+}
+.author {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.author p {
+    font-weight: 500;
+    color: #677489;
+}
